@@ -15,10 +15,14 @@
 >#### TensorBoard可视化
 >#### 分布式TensorFlow模型训练
 
+---
+
 Tensorflow-Google-Projects# python forward-propagation-algorithm.py 
 [[ 3.95757794]
  [ 1.15376544]
  [ 3.16749191]]
+
+---
 
 Tensorflow-Google-Projects# python neural_networks_classification.py 
 [[-0.81131822  1.48459876  0.06532937]
@@ -36,3 +40,5 @@ After 4000 training step(s), cross entropy on all data is 0.00578471
 [[-1.8247149 ]
  [ 2.68546653]
  [ 1.41819501]]
+
+---
