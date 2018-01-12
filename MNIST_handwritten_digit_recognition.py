@@ -133,7 +133,9 @@ def train(mnist):
 
     # 初始化会话并开始训练过程。
     with tf.Session() as sess:
-        tf.initialize_all_variables.run()
+        init_op = tf.global_variables_initializer()
+        # Initialize variables.
+        sess.run(init_op)
         # 准备验证数据。
         # 一般在神经网络的训练过程中会通过验证数据来大致判断停止的条件和评判训练的效果。
         validate_feed = {x: mnist.validation.images,
