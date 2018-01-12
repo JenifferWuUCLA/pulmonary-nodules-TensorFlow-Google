@@ -40,9 +40,13 @@
  [ 0.06532937]]
  
 > After 0 training step(s), cross entropy on all data is 0.0674925
+
 > After 1000 training step(s), cross entropy on all data is 0.0163385
+
 > After 2000 training step(s), cross entropy on all data is 0.00907547
+
 > After 3000 training step(s), cross entropy on all data is 0.00714436
+
 > After 4000 training step(s), cross entropy on all data is 0.00578471
 
 [[-1.9618274   2.58235407  1.68203783]
