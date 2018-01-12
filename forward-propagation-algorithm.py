@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
 import tensorflow as tf
 
 # Declare W1, W2 two variables. Here, the random seeds are set by the seed parameter,
