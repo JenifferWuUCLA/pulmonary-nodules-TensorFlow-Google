@@ -17,6 +17,12 @@
 
 ---
 
+#### Google TensorFlow Playgound:
+![google_tensorflow_playground_1.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/google_tensorflow_playground_1.png)
+![google_tensorflow_playground_２.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/google_tensorflow_playground_2.png)
+
+---
+
 > Tensorflow-Google-Projects# python forward-propagation-algorithm.py 
 
 [[ 3.95757794]
