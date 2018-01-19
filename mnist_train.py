@@ -17,7 +17,7 @@ REGULARAZTION_RATE = 0.0001
 TRAINING_STEPS = 30000
 MOVING_AVERAGE_DECAY = 0.99
 # 模型保存的路径和文件名
-MODEL_SAVE_PATH = "/home/jenifferwu/TensorFlow_data/model/"
+MODEL_SAVE_PATH = "/home/jenifferwu/TensorFlow_data/model-LeNet-5/"
 MODEL_NAME = "model.ckpt"
 
 
@@ -28,7 +28,7 @@ def train(mnist):
 
     regularizer = tf.contrib.layers.l2_regularizer(REGULARAZTION_RATE)
     # 直接使用mnist_inference.py中定义的前向传播过程
-    y = mnist_inference.inference(x, regularizer)
+    y = mnist_inference.inference(x, True, regularizer)
     global_step = tf.Variable(0, trainable=False)
 
     # 定义损失函数、学习率、滑动平均操作以及训练过程。
