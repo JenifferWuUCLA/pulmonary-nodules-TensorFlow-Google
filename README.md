@@ -399,3 +399,73 @@ Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-labels-idx1-ubyte.gz
 > After 29000 training step(s), validation accuracy using average model is 0.9842 
 
 > After 30000 training step(s), test accuracy using average model is 0.9847
+
+> Tensorflow-Google-Projects# python mnist_train.py 
+
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
+
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-labels-idx1-ubyte.gz
+
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-images-idx3-ubyte.gz
+
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-labels-idx1-ubyte.gz
+
+> After 1 training step(s), loss on training batch is 3.07277.
+
+> After 1001 training step(s), loss on training batch is 0.261659.
+
+> After 2001 training step(s), loss on training batch is 0.187801.
+
+> After 3001 training step(s), loss on training batch is 0.154186.
+
+> After 4001 training step(s), loss on training batch is 0.122932.
+
+> After 5001 training step(s), loss on training batch is 0.106926.
+
+> After 6001 training step(s), loss on training batch is 0.10171.
+
+> After 7001 training step(s), loss on training batch is 0.0913763.
+
+> After 8001 training step(s), loss on training batch is 0.0761578.
+
+> After 9001 training step(s), loss on training batch is 0.0763629.
+
+> After 10001 training step(s), loss on training batch is 0.0703265.
+
+> After 11001 training step(s), loss on training batch is 0.0617021.
+
+> After 12001 training step(s), loss on training batch is 0.0633702.
+
+> After 13001 training step(s), loss on training batch is 0.053284.
+
+> After 14001 training step(s), loss on training batch is 0.0519821.
+
+> After 15001 training step(s), loss on training batch is 0.0521027.
+
+> After 16001 training step(s), loss on training batch is 0.047666.
+
+> After 17001 training step(s), loss on training batch is 0.0480853.
+
+> After 18001 training step(s), loss on training batch is 0.0486614.
+
+> After 19001 training step(s), loss on training batch is 0.0445071.
+
+> After 20001 training step(s), loss on training batch is 0.042046.
+
+> After 21001 training step(s), loss on training batch is 0.0400587.
+
+> After 22001 training step(s), loss on training batch is 0.0440648.
+
+> After 23001 training step(s), loss on training batch is 0.0403247.
+
+> After 24001 training step(s), loss on training batch is 0.0388441.
+
+> After 25001 training step(s), loss on training batch is 0.0382769.
+
+> After 26001 training step(s), loss on training batch is 0.042565.
+
+> After 27001 training step(s), loss on training batch is 0.0356875.
+
+> After 28001 training step(s), loss on training batch is 0.0375919.
+
+> After 29001 training step(s), loss on training batch is 0.0350133.
