@@ -23,7 +23,7 @@
 
 ---
 
-> Tensorflow-Google-Projects# python forward-propagation-algorithm.py 
+#### Tensorflow-Google-Projects# python forward-propagation-algorithm.py 
 
 [[ 3.95757794]
 
@@ -33,7 +33,7 @@
 
 ---
 
-> Tensorflow-Google-Projects# python neural_networks_classification.py 
+#### Tensorflow-Google-Projects# python neural_networks_classification.py 
 
 [[-0.81131822  1.48459876  0.06532937]
 
@@ -67,7 +67,7 @@
 
 ---
 
-Tensorflow-Google-Projects# python MNIST_data_preprocessing.py 
+#### Tensorflow-Google-Projects# python MNIST_data_preprocessing.py 
 
 Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
 
@@ -328,7 +328,7 @@ Testing data size:  10000
 
 ---
 
-> Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py 
+#### Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py 
 
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
 
@@ -400,7 +400,7 @@ Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-labels-idx1-ubyte.gz
 
 > After 30000 training step(s), test accuracy using average model is 0.9847
 
-> Tensorflow-Google-Projects# python mnist_train.py 
+#### Tensorflow-Google-Projects# python mnist_train.py 
 
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
 
