@@ -93,275 +93,309 @@ Testing data size:  10000
 
 > Example training data:  [ 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.38039219  0.37647063
+> | 0.          0.          0.          0.          0.38039219  0.37647063
 
->   0.3019608   0.46274513  0.2392157   0.          0.          0.          0.
+> | 0.3019608   0.46274513  0.2392157   0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.35294119  0.5411765
+> | 0.          0.          0.          0.          0.35294119  0.5411765
 
->   0.92156869  0.92156869  0.92156869  0.92156869  0.92156869  0.92156869
+> | 0.92156869  0.92156869  0.92156869  0.92156869  0.92156869  0.92156869
 
->   0.98431379  0.98431379  0.97254908  0.99607849  0.96078438  0.92156869
+> | 0.98431379  0.98431379  0.97254908  0.99607849  0.96078438  0.92156869
 
->   0.74509805  0.08235294  0.          0.          0.          0.          0.
+> | 0.74509805  0.08235294  0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.
 
->   0.54901963  0.98431379  0.99607849  0.99607849  0.99607849  0.99607849
+> | 0.54901963  0.98431379  0.99607849  0.99607849  0.99607849  0.99607849
 
->   0.99607849  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849
+> | 0.99607849  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849
 
->   0.99607849  0.99607849  0.99607849  0.99607849  0.74117649  0.09019608
+> | 0.99607849  0.99607849  0.99607849  0.99607849  0.74117649  0.09019608
 
->   0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
->   0.          0.          0.          0.88627458  0.99607849  0.81568635
+> | 0.          0.          0.          0.88627458  0.99607849  0.81568635
 
->   0.78039223  0.78039223  0.78039223  0.78039223  0.54509807  0.2392157
+> | 0.78039223  0.78039223  0.78039223  0.78039223  0.54509807  0.2392157
 
->   0.2392157   0.2392157   0.2392157   0.2392157   0.50196081  0.8705883
+> | 0.2392157   0.2392157   0.2392157   0.2392157   0.50196081  0.8705883
 
->   0.99607849  0.99607849  0.74117649  0.08235294  0.          0.          0.
+> | 0.99607849  0.99607849  0.74117649  0.08235294  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.
 
-  0.14901961  0.32156864  0.0509804   0.          0.          0.          0.
+> | 0.14901961  0.32156864  0.0509804   0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.13333334  0.83529419  0.99607849  0.99607849  0.45098042  0.          0.
+> | 0.13333334  0.83529419  0.99607849  0.99607849  0.45098042  0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.32941177  0.99607849  0.99607849  0.91764712  0.          0.
+> | 0.          0.32941177  0.99607849  0.99607849  0.91764712  0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.32941177  0.99607849  0.99607849  0.91764712  0.          0.
+> | 0.          0.32941177  0.99607849  0.99607849  0.91764712  0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.41568631  0.6156863   0.99607849  0.99607849  0.95294124  0.20000002
+> | 0.41568631  0.6156863   0.99607849  0.99607849  0.95294124  0.20000002
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.09803922  0.45882356  0.89411771
+> | 0.          0.          0.          0.09803922  0.45882356  0.89411771
 
-  0.89411771  0.89411771  0.99215692  0.99607849  0.99607849  0.99607849
+> | 0.89411771  0.89411771  0.99215692  0.99607849  0.99607849  0.99607849
 
-  0.99607849  0.94117653  0.          0.          0.          0.          0.
+> | 0.99607849  0.94117653  0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.26666668  0.4666667   0.86274517
+> | 0.          0.          0.          0.26666668  0.4666667   0.86274517
 
-  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849
+> | 0.99607849  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849
 
-  0.99607849  0.99607849  0.99607849  0.55686277  0.          0.          0.
+> | 0.99607849  0.99607849  0.99607849  0.55686277  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.14509805  0.73333335  0.99215692
+> | 0.          0.          0.          0.14509805  0.73333335  0.99215692
 
-  0.99607849  0.99607849  0.99607849  0.87450987  0.80784321  0.80784321
+> | 0.99607849  0.99607849  0.99607849  0.87450987  0.80784321  0.80784321
 
-  0.29411766  0.26666668  0.84313732  0.99607849  0.99607849  0.45882356
+> | 0.29411766  0.26666668  0.84313732  0.99607849  0.99607849  0.45882356
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.44313729
+> | 0.          0.          0.          0.          0.          0.44313729
 
-  0.8588236   0.99607849  0.94901967  0.89019614  0.45098042  0.34901962
+> | 0.8588236   0.99607849  0.94901967  0.89019614  0.45098042  0.34901962
 
-  0.12156864  0.          0.          0.          0.          0.7843138
+> | 0.12156864  0.          0.          0.          0.          0.7843138
 
-  0.99607849  0.9450981   0.16078432  0.          0.          0.          0.
+> | 0.99607849  0.9450981   0.16078432  0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.66274512  0.99607849  0.6901961   0.24313727  0.          0.
+> | 0.          0.66274512  0.99607849  0.6901961   0.24313727  0.          0.
 
-  0.          0.          0.          0.          0.          0.18823531
+> | 0.          0.          0.          0.          0.          0.18823531
 
-  0.90588242  0.99607849  0.91764712  0.          0.          0.          0.
+> | 0.90588242  0.99607849  0.91764712  0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.07058824  0.48627454  0.          0.          0.
+> | 0.          0.          0.07058824  0.48627454  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.
 
-  0.32941177  0.99607849  0.99607849  0.65098041  0.          0.          0.
+> | 0.32941177  0.99607849  0.99607849  0.65098041  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.54509807  0.99607849  0.9333334   0.22352943  0.          0.          0.
+> | 0.54509807  0.99607849  0.9333334   0.22352943  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.
 
-  0.82352948  0.98039222  0.99607849  0.65882355  0.          0.          0.
+> | 0.82352948  0.98039222  0.99607849  0.65882355  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.94901967  0.99607849  0.93725497  0.22352943  0.          0.          0.
+> | 0.94901967  0.99607849  0.93725497  0.22352943  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.
 
-  0.34901962  0.98431379  0.9450981   0.33725491  0.          0.          0.
+> | 0.34901962  0.98431379  0.9450981   0.33725491  0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
 
-  0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.
 
-  0.01960784  0.80784321  0.96470594  0.6156863   0.          0.          0.
+> | 0.01960784  0.80784321  0.96470594  0.6156863   0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.01568628  0.45882356  0.27058825  0.          0.          0.          0.
+> | 0.01568628  0.45882356  0.27058825  0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.
+> | 0.          0.          0.          0.          0.          0.          0.
 
-  0.          0.          0.          0.          0.          0.          0.        ]
+> | 0.          0.          0.          0.          0.          0.          0.        ]
 
-Examples training data label:  [ 0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+> | Examples training data label:  [ 0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
 
 ---
 
-Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py 
-> Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
+> Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py 
+
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
+
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-labels-idx1-ubyte.gz
+
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-images-idx3-ubyte.gz
+
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-labels-idx1-ubyte.gz
 
 > After 0 training step(s), validation accuracy using average model is 0.0386 
-After 1000 training step(s), validation accuracy using average model is 0.9772 
-After 2000 training step(s), validation accuracy using average model is 0.9812 
-After 3000 training step(s), validation accuracy using average model is 0.9828 
-After 4000 training step(s), validation accuracy using average model is 0.9828 
-After 5000 training step(s), validation accuracy using average model is 0.9836 
-After 6000 training step(s), validation accuracy using average model is 0.9826 
-After 7000 training step(s), validation accuracy using average model is 0.9842 
-After 8000 training step(s), validation accuracy using average model is 0.9828 
-After 9000 training step(s), validation accuracy using average model is 0.9838 
-After 10000 training step(s), validation accuracy using average model is 0.984 
-After 11000 training step(s), validation accuracy using average model is 0.9842 
-After 12000 training step(s), validation accuracy using average model is 0.9834 
-After 13000 training step(s), validation accuracy using average model is 0.9836 
-After 14000 training step(s), validation accuracy using average model is 0.9834 
-After 15000 training step(s), validation accuracy using average model is 0.9832 
-After 16000 training step(s), validation accuracy using average model is 0.9834 
-After 17000 training step(s), validation accuracy using average model is 0.9834 
-After 18000 training step(s), validation accuracy using average model is 0.984 
-After 19000 training step(s), validation accuracy using average model is 0.9836 
-After 20000 training step(s), validation accuracy using average model is 0.9836 
-After 21000 training step(s), validation accuracy using average model is 0.9842 
-After 22000 training step(s), validation accuracy using average model is 0.9838 
-After 23000 training step(s), validation accuracy using average model is 0.9842 
-After 24000 training step(s), validation accuracy using average model is 0.9838 
-After 25000 training step(s), validation accuracy using average model is 0.9836 
-After 26000 training step(s), validation accuracy using average model is 0.9838 
-After 27000 training step(s), validation accuracy using average model is 0.9846 
-After 28000 training step(s), validation accuracy using average model is 0.9846 
-After 29000 training step(s), validation accuracy using average model is 0.9842 
-After 30000 training step(s), test accuracy using average model is 0.9847
+
+> After 1000 training step(s), validation accuracy using average model is 0.9772 
+
+> After 2000 training step(s), validation accuracy using average model is 0.9812 
+
+> After 3000 training step(s), validation accuracy using average model is 0.9828 
+
+> After 4000 training step(s), validation accuracy using average model is 0.9828 
+
+> After 5000 training step(s), validation accuracy using average model is 0.9836 
+
+> After 6000 training step(s), validation accuracy using average model is 0.9826 
+
+> After 7000 training step(s), validation accuracy using average model is 0.9842 
+
+> After 8000 training step(s), validation accuracy using average model is 0.9828 
+
+> After 9000 training step(s), validation accuracy using average model is 0.9838 
+
+> After 10000 training step(s), validation accuracy using average model is 0.984 
+
+> After 11000 training step(s), validation accuracy using average model is 0.9842 
+
+> After 12000 training step(s), validation accuracy using average model is 0.9834 
+
+> After 13000 training step(s), validation accuracy using average model is 0.9836 
+
+> After 14000 training step(s), validation accuracy using average model is 0.9834 
+
+> After 15000 training step(s), validation accuracy using average model is 0.9832 
+
+> After 16000 training step(s), validation accuracy using average model is 0.9834 
+
+> After 17000 training step(s), validation accuracy using average model is 0.9834 
+
+> After 18000 training step(s), validation accuracy using average model is 0.984 
+
+> After 19000 training step(s), validation accuracy using average model is 0.9836 
+
+> After 20000 training step(s), validation accuracy using average model is 0.9836 
+
+> After 21000 training step(s), validation accuracy using average model is 0.9842 
+
+> After 22000 training step(s), validation accuracy using average model is 0.9838 
+
+> After 23000 training step(s), validation accuracy using average model is 0.9842 
+
+> After 24000 training step(s), validation accuracy using average model is 0.9838 
+
+> After 25000 training step(s), validation accuracy using average model is 0.9836 
+
+> After 26000 training step(s), validation accuracy using average model is 0.9838 
+
+> After 27000 training step(s), validation accuracy using average model is 0.9846 
+
+> After 28000 training step(s), validation accuracy using average model is 0.9846 
+
+> After 29000 training step(s), validation accuracy using average model is 0.9842 
+
+> After 30000 training step(s), test accuracy using average model is 0.9847
