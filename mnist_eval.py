@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 # 加载mnist_inference.py和mnist_train.py中定义的常量和函数。
-import mnist_inference_MNIST
+import mnist_inference
 import mnist_train
 
 # 每10秒加载一次最新的模型，并在测试数据上测试最新模型的正确率。
@@ -19,13 +19,13 @@ EVAL_INTERVAL_SECS = 10
 def evaluate(mnist):
     with tf.Graph().as_default() as g:
         # 定义输入输出的格式。
-        x = tf.placeholder(tf.float32, [None, mnist_inference_MNIST.INPUT_NODE], name='x-input')
-        y_ = tf.placeholder(tf.float32, [None, mnist_inference_MNIST.OUTPUT_NODE], name='y-input')
+        x = tf.placeholder(tf.float32, [None, mnist_inference.INPUT_NODE], name='x-input')
+        y_ = tf.placeholder(tf.float32, [None, mnist_inference.OUTPUT_NODE], name='y-input')
         validate_feed = {x: mnist.validation.images, y_: mnist.validation.labels}
 
         # 直接通过调用封装好的函数来计算前向传播的结果。因为测试时不关注正则化损失的值，
         # 所以这里用于计算正则化损失的函数被设置为None
-        y = mnist_inference_MNIST.inference(x, None)
+        y = mnist_inference.inference(x, None)
 
         # 使用前向传播的结果计算正确率。如果需要对未知的样例进行分类，
         # 那么使用tf.argmax(y, 1)就可以得到输入样例的预测类别了。
