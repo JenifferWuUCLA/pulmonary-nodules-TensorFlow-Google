@@ -1,0 +1,2 @@
+model_checkpoint_path: "T9-2-vs2.ckpt-1"
+all_model_checkpoint_paths: "T9-2-vs2.ckpt-1"
