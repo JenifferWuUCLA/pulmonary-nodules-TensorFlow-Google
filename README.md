@@ -16,7 +16,7 @@
 >#### 分布式TensorFlow模型训练
 
 ---
->#### /tmp/tensorflow/mnist/logs# tensorboard --logdir=mnist_with_summaries/
+>### /tmp/tensorflow/mnist/logs# tensorboard --logdir=mnist_with_summaries/
 Starting TensorBoard 47 at http://0.0.0.0:6006
 
 ![01.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/01.png)
@@ -49,7 +49,7 @@ Starting TensorBoard 47 at http://0.0.0.0:6006
 
 ---
 
->#### Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py
+>### Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py
 
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
 
@@ -122,7 +122,7 @@ After 29000 training step(s), validation accuracy using average model is 0.9842
 After 30000 training step(s), test accuracy using average model is 0.9847
 
 
->#### Tensorflow-Google-Projects# python mnist_train.py
+>### Tensorflow-Google-Projects# python mnist_train.py
 
 Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
 
