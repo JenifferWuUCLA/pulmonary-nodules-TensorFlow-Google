@@ -66,8 +66,8 @@
  [ 1.41819501]]
 
 ---
-### /tmp/tensorflow/mnist/logs# tensorboard --logdir=mnist_with_summaries/
-Starting TensorBoard 47 at http://0.0.0.0:6006
+#### /tmp/tensorflow/mnist/logs# tensorboard --logdir=mnist_with_summaries/
+> Starting TensorBoard 47 at http://0.0.0.0:6006
 
 ![01.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/01.png)
 ![02.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/02.png)
