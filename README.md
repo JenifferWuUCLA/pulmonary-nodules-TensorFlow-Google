@@ -17,21 +17,34 @@
 
 ---
 >#### /tmp/tensorflow/mnist/logs# tensorboard --logdir=mnist_with_summaries/
-> Starting TensorBoard 47 at http://0.0.0.0:6006
+Starting TensorBoard 47 at http://0.0.0.0:6006
 
 ![01.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/01.png)
+
 ![02.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/02.png)
+
 ![03.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/03.png)
+
 ![04.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/04.png)
+
 ![05.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/05.png)
+
 ![06.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/06.png)
+
 ![07.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/07.png)
+
 ![08.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/08.png)
+
 ![09.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/09.png)
+
 ![10.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/10.png)
+
 ![11.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/11.png)
+
 ![12.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/12.png)
+
 ![13.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/13.png)
+
 ![14.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/14.png)
 
 ---
