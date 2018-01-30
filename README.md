@@ -22,50 +22,6 @@
 ![google_tensorflow_playground_２.png](https://github.com/JenifferWuUCLA/TensorFlow-Google-Projects/blob/master/images/google_tensorflow_playground_2.png)
 
 ---
-
-#### Tensorflow-Google-Projects# python forward-propagation-algorithm.py 
-
-[[ 3.95757794]
-
- [ 1.15376544]
- 
- [ 3.16749191]]
-
----
-
-#### Tensorflow-Google-Projects# python neural_networks_classification.py 
-
-[[-0.81131822  1.48459876  0.06532937]
-
- [-2.44270396  0.0992484   0.59122431]]
- 
-[[-0.81131822]
-
- [ 1.48459876]
- 
- [ 0.06532937]]
- 
-> After 0 training step(s), cross entropy on all data is 0.0674925
-
-> After 1000 training step(s), cross entropy on all data is 0.0163385
-
-> After 2000 training step(s), cross entropy on all data is 0.00907547
-
-> After 3000 training step(s), cross entropy on all data is 0.00714436
-
-> After 4000 training step(s), cross entropy on all data is 0.00578471
-
-[[-1.9618274   2.58235407  1.68203783]
-
- [-3.4681716   1.06982327  2.11788988]]
- 
-[[-1.8247149 ]
-
- [ 2.68546653]
- 
- [ 1.41819501]]
-
----
 #### /tmp/tensorflow/mnist/logs# tensorboard --logdir=mnist_with_summaries/
 > Starting TensorBoard 47 at http://0.0.0.0:6006
 
@@ -86,261 +42,145 @@
 
 ---
 
-#### Tensorflow-Google-Projects# python MNIST_data_preprocessing.py 
+#### Tensorflow-Google-Projects# python MNIST_handwritten_digit_recognition.py
 
-Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
 
-Extracting /home/jenifferwu/TensorFlow_data/MNIST_data/train-images-idx3-ubyte.gz
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-labels-idx1-ubyte.gz
 
-Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-images-idx3-ubyte.gz
 
-Extracting /home/jenifferwu/TensorFlow_data/MNIST_data/train-labels-idx1-ubyte.gz
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-labels-idx1-ubyte.gz
 
-Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+> After 0 training step(s), validation accuracy using average model is 0.0386
 
-Extracting /home/jenifferwu/TensorFlow_data/MNIST_data/t10k-images-idx3-ubyte.gz
+> After 1000 training step(s), validation accuracy using average model is 0.9772
 
-Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+> After 2000 training step(s), validation accuracy using average model is 0.9812
 
-Extracting /home/jenifferwu/TensorFlow_data/MNIST_data/t10k-labels-idx1-ubyte.gz
+> After 3000 training step(s), validation accuracy using average model is 0.9828
 
-Training data size:  55000
+> After 4000 training step(s), validation accuracy using average model is 0.9828
 
-Validating data size:  5000
+> After 5000 training step(s), validation accuracy using average model is 0.9836
 
-Testing data size:  10000
+> After 6000 training step(s), validation accuracy using average model is 0.9826
 
-> Example training data:  [ 0.          0.          0.          0.          0.          0.          0.
+> After 7000 training step(s), validation accuracy using average model is 0.9842
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 8000 training step(s), validation accuracy using average model is 0.9828
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 9000 training step(s), validation accuracy using average model is 0.9838
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 10000 training step(s), validation accuracy using average model is 0.984
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 11000 training step(s), validation accuracy using average model is 0.9842
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 12000 training step(s), validation accuracy using average model is 0.9834
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 13000 training step(s), validation accuracy using average model is 0.9836
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 14000 training step(s), validation accuracy using average model is 0.9834
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 15000 training step(s), validation accuracy using average model is 0.9832
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 16000 training step(s), validation accuracy using average model is 0.9834
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 17000 training step(s), validation accuracy using average model is 0.9834
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 18000 training step(s), validation accuracy using average model is 0.984
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 19000 training step(s), validation accuracy using average model is 0.9836
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 20000 training step(s), validation accuracy using average model is 0.9836
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 21000 training step(s), validation accuracy using average model is 0.9842
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 22000 training step(s), validation accuracy using average model is 0.9838
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 23000 training step(s), validation accuracy using average model is 0.9842
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 24000 training step(s), validation accuracy using average model is 0.9838
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 25000 training step(s), validation accuracy using average model is 0.9836
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 26000 training step(s), validation accuracy using average model is 0.9838
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 27000 training step(s), validation accuracy using average model is 0.9846
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 28000 training step(s), validation accuracy using average model is 0.9846
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 29000 training step(s), validation accuracy using average model is 0.9842
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 30000 training step(s), test accuracy using average model is 0.9847
 
-> | 0.          0.          0.          0.          0.          0.          0.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+#### Tensorflow-Google-Projects# python mnist_train.py
 
-> | 0.          0.          0.          0.          0.          0.          0.
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-images-idx3-ubyte.gz
 
-> | 0.          0.          0.          0.          0.          0.          0.
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/train-labels-idx1-ubyte.gz
 
-> | 0.          0.          0.          0.          0.          0.          0.
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-images-idx3-ubyte.gz
 
-> | 0.          0.          0.          0.          0.38039219  0.37647063
+Extracting /home/jenifferwu/TensorFlow_data/tmp/data/t10k-labels-idx1-ubyte.gz
 
-> | 0.3019608   0.46274513  0.2392157   0.          0.          0.          0.
+> After 1 training step(s), loss on training batch is 3.07277.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 1001 training step(s), loss on training batch is 0.261659.
 
-> | 0.          0.          0.          0.          0.35294119  0.5411765
+> After 2001 training step(s), loss on training batch is 0.187801.
 
-> | 0.92156869  0.92156869  0.92156869  0.92156869  0.92156869  0.92156869
+> After 3001 training step(s), loss on training batch is 0.154186.
 
-> | 0.98431379  0.98431379  0.97254908  0.99607849  0.96078438  0.92156869
+> After 4001 training step(s), loss on training batch is 0.122932.
 
-> | 0.74509805  0.08235294  0.          0.          0.          0.          0.
+> After 5001 training step(s), loss on training batch is 0.106926.
 
-> | 0.          0.          0.          0.          0.          0.
+> After 6001 training step(s), loss on training batch is 0.10171.
 
-> | 0.54901963  0.98431379  0.99607849  0.99607849  0.99607849  0.99607849
+> After 7001 training step(s), loss on training batch is 0.0913763.
 
-> | 0.99607849  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849
+> After 8001 training step(s), loss on training batch is 0.0761578.
 
-> | 0.99607849  0.99607849  0.99607849  0.99607849  0.74117649  0.09019608
+> After 9001 training step(s), loss on training batch is 0.0763629.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 10001 training step(s), loss on training batch is 0.0703265.
 
-> | 0.          0.          0.          0.88627458  0.99607849  0.81568635
+> After 11001 training step(s), loss on training batch is 0.0617021.
 
-> | 0.78039223  0.78039223  0.78039223  0.78039223  0.54509807  0.2392157
+> After 12001 training step(s), loss on training batch is 0.0633702.
 
-> | 0.2392157   0.2392157   0.2392157   0.2392157   0.50196081  0.8705883
+> After 13001 training step(s), loss on training batch is 0.053284.
 
-> | 0.99607849  0.99607849  0.74117649  0.08235294  0.          0.          0.
+> After 14001 training step(s), loss on training batch is 0.0519821.
 
-> | 0.          0.          0.          0.          0.          0.
+> After 15001 training step(s), loss on training batch is 0.0521027.
 
-> | 0.14901961  0.32156864  0.0509804   0.          0.          0.          0.
+> After 16001 training step(s), loss on training batch is 0.047666.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 17001 training step(s), loss on training batch is 0.0480853.
 
-> | 0.13333334  0.83529419  0.99607849  0.99607849  0.45098042  0.          0.
+> After 18001 training step(s), loss on training batch is 0.0486614.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 19001 training step(s), loss on training batch is 0.0445071.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 20001 training step(s), loss on training batch is 0.042046.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 21001 training step(s), loss on training batch is 0.0400587.
 
-> | 0.          0.32941177  0.99607849  0.99607849  0.91764712  0.          0.
+> After 22001 training step(s), loss on training batch is 0.0440648.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 23001 training step(s), loss on training batch is 0.0403247.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 24001 training step(s), loss on training batch is 0.0388441.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 25001 training step(s), loss on training batch is 0.0382769.
 
-> | 0.          0.32941177  0.99607849  0.99607849  0.91764712  0.          0.
+> After 26001 training step(s), loss on training batch is 0.042565.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 27001 training step(s), loss on training batch is 0.0356875.
 
-> | 0.          0.          0.          0.          0.          0.          0.
+> After 28001 training step(s), loss on training batch is 0.0375919.
 
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.41568631  0.6156863   0.99607849  0.99607849  0.95294124  0.20000002
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.09803922  0.45882356  0.89411771
-
-> | 0.89411771  0.89411771  0.99215692  0.99607849  0.99607849  0.99607849
-
-> | 0.99607849  0.94117653  0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.26666668  0.4666667   0.86274517
-
-> | 0.99607849  0.99607849  0.99607849  0.99607849  0.99607849  0.99607849
-
-> | 0.99607849  0.99607849  0.99607849  0.55686277  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.14509805  0.73333335  0.99215692
-
-> | 0.99607849  0.99607849  0.99607849  0.87450987  0.80784321  0.80784321
-
-> | 0.29411766  0.26666668  0.84313732  0.99607849  0.99607849  0.45882356
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.44313729
-
-> | 0.8588236   0.99607849  0.94901967  0.89019614  0.45098042  0.34901962
-
-> | 0.12156864  0.          0.          0.          0.          0.7843138
-
-> | 0.99607849  0.9450981   0.16078432  0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.66274512  0.99607849  0.6901961   0.24313727  0.          0.
-
-> | 0.          0.          0.          0.          0.          0.18823531
-
-> | 0.90588242  0.99607849  0.91764712  0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.07058824  0.48627454  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.
-
-> | 0.32941177  0.99607849  0.99607849  0.65098041  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.54509807  0.99607849  0.9333334   0.22352943  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.
-
-> | 0.82352948  0.98039222  0.99607849  0.65882355  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.94901967  0.99607849  0.93725497  0.22352943  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.
-
-> | 0.34901962  0.98431379  0.9450981   0.33725491  0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-
-> | 0.          0.          0.          0.          0.          0.
-
-> | 0.01960784  0.80784321  0.96470594  0.6156863   0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.01568628  0.45882356  0.27058825  0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.
-
-> | 0.          0.          0.          0.          0.          0.          0.        ]
-
-> | Examples training data label:  [ 0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+> After 29001 training step(s), loss on training batch is 0.0350133.
